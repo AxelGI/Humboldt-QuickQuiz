@@ -23,13 +23,6 @@ req.onreadystatechange = () => {
     console.log(req.responseText);
   }
 };
-  //https://api.jsonbin.io/v3/b/6340701b0e6a79321e207d0f
-req.open("GET", "https://api.jsonbin.io/v3/b/6340701b0e6a79321e207d0f?meta=false", true);
-req.setRequestHeader("Content-Type", "application/json");
-req.setRequestHeader("X-Master-Key", "$2b$10$/E4fwa/Mlke7U5IL.KyG3uDe7Tf.SCQ04HfekZlvKuo7ubwV74QNy");
-req.setRequestHeader("X-Key-Name", "QUESTIONS");
-req.send();
-////
 //Rondas de 5 rersultado y repetir 
 //https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple
 fetch('https://api.jsonbin.io/v3/b/6340701b0e6a79321e207d0f?meta=false',{
